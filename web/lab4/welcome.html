@@ -6,14 +6,15 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TITLE</title>
+        <title>Welcome</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <a href="pager">Go to Lab 2</a>
-        <a href="pager?color=blue">Go to Lab 2b</a>
-        <a href="lab2/form.html">Go to Lab 2c</a>
-        <a href="lab4/welcome.html">Go to Lab 4</a>
+        <h2>Welcome Service</h2>
+        <form id="form1" name="form1" method="POST" action="../greeter">
+            <input id="firstName" name="firstName" type="text" value=""/>
+            <input type="submit" name="submit" value="Submit"/>
+        </form>
     </body>
 </html>
